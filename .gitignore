@@ -22,14 +22,24 @@
 # THE SOFTWARE.
 #
 
-.idea/
-target/
-*.iml
-out/
-*~
-work/
+target
+work
 
-/target
-.settings/
+# IntelliJ project files
+*.iml
+*.iws
+*.ipr
+.idea
+out
+
+# eclipse project file
+.settings
 .classpath
 .project
+build
+
+# vim
+*~
+
+# OS X
+.DS_Store
