@@ -26,8 +26,6 @@
 
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:f="/lib/form" xmlns:poj="/pojelly">
 
-    <j:set var="defaults" value="${descriptor.defaults}"/>
-
     <poj:defaultMessages/>
     
     <j:set var="plugin" value="${instance}"/>

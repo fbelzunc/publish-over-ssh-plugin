@@ -80,11 +80,11 @@ public class BapSshHostConfigurationDescriptor extends Descriptor<BapSshHostConf
         return BPValidators.validateFileOnMaster(value);
     }
 
-    public FormValidation doTestConnection(final StaplerRequest request, final StaplerResponse response) {
+    /*public FormValidation doTestConnection(final StaplerRequest request, final StaplerResponse response) {
         final BapSshPublisherPlugin.Descriptor pluginDescriptor = Hudson.getInstance().getDescriptorByType(
                 BapSshPublisherPlugin.Descriptor.class);
         return pluginDescriptor.doTestConnection(request, response);
-    }
+    }*/
 
     public jenkins.plugins.publish_over.view_defaults.HostConfiguration.Messages getCommonFieldNames() {
         return new jenkins.plugins.publish_over.view_defaults.HostConfiguration.Messages();
